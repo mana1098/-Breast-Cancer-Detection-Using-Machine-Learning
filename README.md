@@ -89,7 +89,7 @@ Contributions to improve the model's performance or expand its capabilities are 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Your Name - your.email@example.com
+Your Name - jainmanali1003.email@example.com
 
 Project Link: [https://github.com/yourusername/breast-cancer-detection](https://github.com/yourusername/breast-cancer-detection)
 
