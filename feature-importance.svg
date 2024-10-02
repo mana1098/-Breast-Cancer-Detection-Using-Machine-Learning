@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 10px; }
+    .title { font-size: 16px; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="20" text-anchor="middle" class="title">Feature Importance</text>
+  
+  <g transform="translate(100, 40)">
+    <!-- Bars -->
+    <rect x="0" y="0" width="250" height="20" fill="#1f77b4"/>
+    <rect x="0" y="30" width="200" height="20" fill="#1f77b4"/>
+    <rect x="0" y="60" width="150" height="20" fill="#1f77b4"/>
+    <rect x="0" y="90" width="100" height="20" fill="#1f77b4"/>
+    <rect x="0" y="120" width="50" height="20" fill="#1f77b4"/>
+    
+    <!-- Feature labels -->
+    <text x="-5" y="15" text-anchor="end">Radius_mean</text>
+    <text x="-5" y="45" text-anchor="end">Texture_mean</text>
+    <text x="-5" y="75" text-anchor="end">Perimeter_mean</text>
+    <text x="-5" y="105" text-anchor="end">Area_mean</text>
+    <text x="-5" y="135" text-anchor="end">Smoothness_mean</text>
+    
+    <!-- Axis -->
+    <line x1="0" y1="150" x2="250" y2="150" stroke="black"/>
+    <text x="125" y="170" text-anchor="middle">Relative Importance</text>
+  </g>
+</svg>

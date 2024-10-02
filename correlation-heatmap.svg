@@ -1,0 +1,54 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 8px; }
+    .title { font-size: 16px; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="20" text-anchor="middle" class="title">Feature Correlation Heatmap</text>
+  
+  <g transform="translate(50, 50)">
+    <!-- Heatmap cells -->
+    <rect x="0" y="0" width="30" height="30" fill="#ff0000"/>
+    <rect x="30" y="0" width="30" height="30" fill="#ff8080"/>
+    <rect x="60" y="0" width="30" height="30" fill="#ffcccc"/>
+    <rect x="90" y="0" width="30" height="30" fill="#ffe6e6"/>
+    <rect x="120" y="0" width="30" height="30" fill="#ffffff"/>
+    
+    <rect x="0" y="30" width="30" height="30" fill="#ff8080"/>
+    <rect x="30" y="30" width="30" height="30" fill="#ff0000"/>
+    <rect x="60" y="30" width="30" height="30" fill="#ff9999"/>
+    <rect x="90" y="30" width="30" height="30" fill="#ffcccc"/>
+    <rect x="120" y="30" width="30" height="30" fill="#ffe6e6"/>
+    
+    <rect x="0" y="60" width="30" height="30" fill="#ffcccc"/>
+    <rect x="30" y="60" width="30" height="30" fill="#ff9999"/>
+    <rect x="60" y="60" width="30" height="30" fill="#ff0000"/>
+    <rect x="90" y="60" width="30" height="30" fill="#ff8080"/>
+    <rect x="120" y="60" width="30" height="30" fill="#ffcccc"/>
+    
+    <rect x="0" y="90" width="30" height="30" fill="#ffe6e6"/>
+    <rect x="30" y="90" width="30" height="30" fill="#ffcccc"/>
+    <rect x="60" y="90" width="30" height="30" fill="#ff8080"/>
+    <rect x="90" y="90" width="30" height="30" fill="#ff0000"/>
+    <rect x="120" y="90" width="30" height="30" fill="#ff9999"/>
+    
+    <rect x="0" y="120" width="30" height="30" fill="#ffffff"/>
+    <rect x="30" y="120" width="30" height="30" fill="#ffe6e6"/>
+    <rect x="60" y="120" width="30" height="30" fill="#ffcccc"/>
+    <rect x="90" y="120" width="30" height="30" fill="#ff9999"/>
+    <rect x="120" y="120" width="30" height="30" fill="#ff0000"/>
+    
+    <!-- Feature labels -->
+    <text x="-5" y="15" text-anchor="end">Radius</text>
+    <text x="-5" y="45" text-anchor="end">Texture</text>
+    <text x="-5" y="75" text-anchor="end">Perimeter</text>
+    <text x="-5" y="105" text-anchor="end">Area</text>
+    <text x="-5" y="135" text-anchor="end">Smoothness</text>
+    
+    <text x="15" y="165" text-anchor="middle">Radius</text>
+    <text x="45" y="165" text-anchor="middle">Texture</text>
+    <text x="75" y="165" text-anchor="middle">Perimeter</text>
+    <text x="105" y="165" text-anchor="middle">Area</text>
+    <text x="135" y="165" text-anchor="middle">Smoothness</text>
+  </g>
+</svg>
